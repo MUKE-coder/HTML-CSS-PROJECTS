@@ -5,9 +5,72 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+}
+body {
+  background-color: hsl(225, 100%, 94%);
 }
 
 .container {
   background-color: hsl(225, 100%, 94%);
   height: 100vh;
+}
+.card {
+  width: 300px;
+  margin: 30px auto;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+}
+.card-header {
+  background: url("../images/card-header-bg.svg");
+  height: 100px;
+  background-size: contain;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 10px;
+}
+.card-heading {
+  padding: 10px 0px;
+  color: hsl(223, 47%, 23%);
+  font-size: 20px;
+}
+.card-text {
+  padding: 10px 0px;
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+}
+.card-pricing {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.price-tag {
+  color: hsl(224, 23%, 55%);
+  font-size: 14px;
+}
+.price-heading {
+  color: hsl(223, 47%, 23%);
+}
+.link {
+  font-size: 14px;
+}
+.btn {
+  padding: 8px 20px;
+  display: block;
+  margin: 10px auto;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.card-btn-payment {
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 6px;
+  color: white;
+}
+.card-btn-payment:hover {
+  background-color: hsl(224, 23%, 55%);
+}
+.card-button {
+  padding: 10px;
 }
